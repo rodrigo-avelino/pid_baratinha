@@ -1,0 +1,30 @@
+# --- Ambientes Virtuais (Virtual Environments) ---
+venv/
+env/
+.env
+.venv/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info
+.eggs/
+
+# --- Arquivos de Dados Gerados pelo Projeto ---
+# Ignora o arquivo de dados gerado pela Parte B
+*.npz
+*.npy
+*.csv
+
+# --- IDEs e Editores ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Logs e Temporários ---
+*.log
+dist/
+build/
