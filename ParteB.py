@@ -9,9 +9,9 @@ from control import tf, feedback, step_response, c2d, poles, dcgain
 print("--- 1. CÁLCULO DOS POLOS DESEJADOS ---")
 
 # --- Parâmetros ---
-zeta_escolhido = 0.7   
-wn_escolhido = 5.0
-alpha = 20
+zeta_escolhido = 0.85   
+wn_escolhido = 2.0
+alpha = 8
 T = 0.01
 
 print(f"Zeta: {zeta_escolhido}, Wn: {wn_escolhido}, Alpha: {alpha}, T: {T}")
